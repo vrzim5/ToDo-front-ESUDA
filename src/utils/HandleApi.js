@@ -2,7 +2,7 @@ import axios from "axios";
 //biblioteca axios
 //link: https://axios-http.com/ptbr/docs/intro
 
-const baseURL = "https://todo-app-express-backend-rtbt.onrender.com"; 
+const baseURL = "mongodb+srv://regisvinicius00:136136@base.hnjwzcm.mongodb.net/?retryWrites=true&w=majority&appName=base"; 
 //baseURL link que da o ID, que da o ToDo com id, Texto e ___V
 
 const getAllToDo = (setToDo) => {
